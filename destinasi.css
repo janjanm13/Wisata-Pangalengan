@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header dengan background spesifik untuk setiap destinasi */
+.header-destination {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.situ-cileunca-header {
+    background: url('pemandangan.png') no-repeat center center;
+    background-size: cover;
+}
+
+.kebun-teh-header {
+    background: url('pemandangan.png') no-repeat center center;
+    background-size: cover;
+}
+
+.penangkaran-rusa-header {
+    background: url('pemandangan.png') no-repeat center center;
+    background-size: cover;
+}
+
+.curug-penganten-header {
+    background: url('pemandangan.png') no-repeat center center;
+    background-size: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Konten utama untuk halaman destinasi */
+.destination-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Foto destinasi */
+.destination-photo img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Detail destinasi: harga, reservasi, deskripsi */
+.destination-details {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.destination-details h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.destination-details p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.destination-details h2:first-of-type {
+    margin-top: 20px;
+}
